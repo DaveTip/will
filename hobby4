@@ -1,19 +1,36 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="stylesheet" type="text/css" href="layout.css">
-</head>
+  <title>The Paranormal</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1"> <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<head>
 
 <body>
-  <div class="sidebar">
-    <a class="active" href="hobby.html">Home</a>
-    <a href="hobby3">Aliens/Ufos</a>
-    <a href="hobby2">Bigfoot</a>
-    <a href="hobby4">Giant Squid</a>
-  </div>
-  <h1>Giant Squid</h1> 
-<p>Giant squid grow to large sizes and live in deep sea conditions</p>
-<a href="hobby.html">return to main page</a>
+
+<div class="container">
+  <h3>Giant Squid</h3>
+  <p>Giant squid sightings take back countless centuries until discovered in 2011</p>
+  <p>Tip: To navigate this page click on the links below!</p>
+</div>
+
+<nav class="navbar navbar-expand-sm bg-success navbar-dark">
+  <ul class="navbar-nav">
+     <li class="nav-item">
+      <a class="nav-link" href="hobby2">aliens/ufos</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="hobby3">bigfoot</a>
+    </li>
+     <li class="nav-item">
+      <a class="nav-link" href="hobby4">giant squid</a>
+    </li>
+  </ul>
+</nav> 
+
 </body>
+
+</html>
